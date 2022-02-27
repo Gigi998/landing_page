@@ -56,7 +56,36 @@ body{
 .ht-r img{
     width: 200px;
 }
-/**/
+/*Second section*/
+
+.second{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 100px 0px 100px;
+}
+.photo-text{
+    display: flex;
+    justify-content: center;
+}
+.second h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    font-weight: bold;
+    color: #1F2937;
+    padding-bottom: 50px;
+}
+.photo-text{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.photo-text p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 
     

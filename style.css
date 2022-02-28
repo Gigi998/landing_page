@@ -86,6 +86,57 @@ body{
     align-items: center;
     justify-content: center;
 }
+/*Quote section*/
 
+.quote-section{
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    padding: 40px 200px;
+}
+.quote-section p{
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+b{
+    text-align: right;
+    padding-right: 30px;
+}
+/*Last section*/
+
+.last-section{
+    background-color: #3882F6;
+    margin: 50px 200px;
+    padding: 0px 100px 50px 100px;
+    display: flex;
+    align-items: center;
+    border-radius: 15px;
+    justify-content: space-between;
+}
+.ls-text h2{
+    color: #FFFFFF;
+}
+.ls-text p{
+    color: #E5E7EB;
+}
+.ls-button button{
+    margin-top: 50px;
+    background-color: #3882F6;
+    color:#F9FAF8;
+    border-color: #E5E7EB;
+    border-radius: 8px;
+    height: 24px;
+    padding: 0px 20px 0px 20px;
+}
+/*footer*/
+
+.footer{
+    background-color: #1F2937;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:#E5E7EB;
+}
 
     
